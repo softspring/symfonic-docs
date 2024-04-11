@@ -1,4 +1,4 @@
-## Install SfsBuilder in a new Symfony project
+# Install SfsBuilder in a new Symfony project
 
 ## Create a new symfony project
 
