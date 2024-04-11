@@ -58,7 +58,7 @@
             "children": [
                 {
                     "text": "UserBundle",
-                    "slug": "bundles/user-bundle",
+                    "slug": "bundles/user-bundle/install",
                     "file": "bundles/user-bundle/install.md"
                 }
             ]
