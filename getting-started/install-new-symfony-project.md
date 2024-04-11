@@ -3,7 +3,7 @@
 ## Create a new symfony project
 
 SfsBuilder is a Symfony project, so first of all we need to create a new Symfony project. 
-You can create a new Symfony project using the Symfony CLI or Composer as shown in the official [Symfony documentation](https://symfony.com/doc/current/setup.html).
+You can create a new Symfony project using the Symfony CLI or Composer as shown in the official <a href="https://symfony.com/doc/current/setup.html">Symfony documentation</a>. 
 
 Let's create a new Symfony project using the Symfony CLI:
 
@@ -129,7 +129,7 @@ Now you can see the start page of the SfsBuilder project:
 
 Before you can create your first page, you need to configure security to access the admin area.
 
-You can use any Symfony [security configuration](https://symfony.com/doc/current/security.html) or bundle you want, but for this example we will use the Softspring User Bundle.
+You can use any Symfony <a href="https://symfony.com/doc/current/security.html">security configuration</a> or bundle you want, but for this example we will use the Softspring User Bundle.
 
 ### Configure Softspring User Bundle
 

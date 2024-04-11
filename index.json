@@ -52,6 +52,16 @@
                     "text": "Install in a Sylius project"
                 }
             ]
+        },
+        {
+            "text": "Bundles",
+            "children": [
+                {
+                    "text": "UserBundle",
+                    "slug": "bundles/user-bundle",
+                    "file": "bundles/user-bundle/install.md"
+                }
+            ]
         }
     ]
 }
