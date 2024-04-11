@@ -1,0 +1,57 @@
+{
+    "index": "index.md",
+    "structure": [
+        {
+            "text": "Sfs Builder",
+            "children": [
+                {
+                    "text": "What is sfs builder?",
+                    "slug": "what-is-sfs-builder",
+                    "file": "introduction/what-is-sfs-builder.md"
+                },
+                {
+                    "text": "Is it for me?",
+                    "slug": "is-it-for-me",
+                    "file": "introduction/is-it-for-me.md"
+                },
+                {
+                    "text": "Sfs builder flavours",
+                    "slug": "sfs-builder-flavours",
+                    "file": "introduction/sfs-builder-flavours.md"
+                },
+                {
+                    "text": "Features",
+                    "slug": "features",
+                    "file": "introduction/features.md"
+                }
+            ]
+        },
+        {
+            "text": "Getting Started",
+            "children": [
+                {
+                    "text": "Requirements"
+                },
+                {
+                    "text": "Installation"
+                },
+                {
+                    "text": "Install new Symfony project",
+                    "slug": "install-new-symfony-project",
+                    "file": "getting-started/install-new-symfony-project.md"
+                },
+                {
+                    "text": "Install existing Symfony project",
+                    "slug": "install-existing-symfony-project",
+                    "file": "getting-started/install-existing-symfony-project.md"
+                },
+                {
+                    "text": "Use Sfs builder standalone edition"
+                },
+                {
+                    "text": "Install in a Sylius project"
+                }
+            ]
+        }
+    ]
+}
