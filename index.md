@@ -7,13 +7,32 @@
 
 ## Getting started
 
-1. Install
-2. Setup
-3. Concepts
-4. Usage
+- Requirements
+- Installation
+- [Install in a new project](getting-started/install-new-symfony-project.md)
+- Install in an existing project
+- Use Sfs builder standalone edition
+- Install in a Sylius project
 
-## Architecture
+## User manual
 
+- Create a new page
+- Publish a page
+- Create a new block
+- Create a new menu
+- Create a new media
+- Configure routes
+
+## Configuration
+
+- Migración de base de datos
+- Autenticación
+  - SfsUserBundle
+  - FosUserBundle
+  - Otros sistemas
+- Configuración de admin
+  - Rutas
+  - 
 
 ## Configure
 
@@ -23,6 +42,8 @@
 4. Configure medias
 5. Configure blocks
 6. Configure menus
+
+## Architecture
 
 ## Advanced
 
@@ -36,8 +57,12 @@
 ## Bundles
 
 ### cms-bundle
+
 ### media-bundle
+
 ### user-bundle
+
+- [Install](bundles/user-bundle/install.md)
 
 ## Components
 
