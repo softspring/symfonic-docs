@@ -54,13 +54,63 @@
             ]
         },
         {
+            "text": "User manual",
+            "children": [
+                { "text": "Create a new page" },
+                { "text": "Publish a page" },
+                { "text": "Create a new block" },
+                { "text": "Create a new menu" },
+                { "text": "Create a new media" },
+                { "text": "Configure routes" }
+            ]
+        },
+        {
+            "text": "Configure",
+            "children": [
+                { "text": "Configure sites" },
+                { "text": "Configure layouts" },
+                { "text": "Configure modules" },
+                { "text": "Configure medias" },
+                { "text": "Configure blocks" },
+                { "text": "Configure menus" }
+            ]
+        },
+        {
+            "text": "Architecture"
+        },
+        {
+            "text": "Performance",
+            "children": [
+                { "text": "Configure caches" }
+            ]
+        },
+        {
+            "text": "Troubleshooting"
+        },
+        {
             "text": "Bundles",
             "children": [
+                { "text": "Account bundle" },
+                { "text": "Crudl bundle" },
+                { "text": "Cms bundle" },
+                { "text": "Media bundle" },
                 {
-                    "text": "UserBundle",
-                    "slug": "bundles/user-bundle/install",
-                    "file": "bundles/user-bundle/install.md"
+                    "text": "User bundle",
+                    "children": [
+                        {
+                            "text": "Install",
+                            "slug": "bundles/user-bundle/install",
+                            "file": "bundles/user-bundle/install.md"
+                        }
+                    ]
                 }
+            ]
+        },
+        {
+            "text": "Components",
+            "children": [
+                { "text": "Components" },
+                { "text": "Dynamic form type" }
             ]
         }
     ]
