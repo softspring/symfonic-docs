@@ -2,14 +2,14 @@
 
 Sfs builder is a powerful CMS system for Symfony projects.
 
-## Why another CMS?
+## Why another CMS? {#why-another-cms}
 
 We have been working with Symfony for a long time, and we have tried many CMS systems, but we have not found any that 
 meets our needs.
 
 We have decided to create our own CMS system, based on Symfony, and we want to share it with the community.
 
-## Why Symfony?
+## Why Symfony? {#why-symfony}
 
 Symfony is a powerful framework, with a large community and a lot of bundles and components that can be used to build
 any kind of project.
@@ -21,7 +21,7 @@ Symfony is fast, secure, and easy to use, and allows you to build complex projec
 It's a long term solution, they have been working on it for more than 10 years with an excellent support, has a large 
 community, and is used by many big companies to build their projects.
 
-## Why sfs builder?
+## Why sfs builder? {#why-sfs-builder}
 
 You will love sfs builder because it's easy to use, it's fast, it's secure, and it's powerful.
 
@@ -49,7 +49,7 @@ These are some of the features that make sfs builder the best choice for your pr
 - It's easy to customize, it's based on Symfony, and it's optimized for customization.
 - It's easy to extend, it's based on Symfony, and it's optimized for extension.
 
-## Features
+## Features {#features}
 
 ### Pure Symfony
 

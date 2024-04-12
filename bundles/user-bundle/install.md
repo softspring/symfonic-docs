@@ -1,22 +1,22 @@
-## Requirements
+## Requirements {#requirements}
 
 A Symfony > 5.4 project is required to use this bundle, with a Doctrine database configured.
 
->[!info]
+> [!info]
 > Softspring 5.2 bundle version has not been released yet. This is a preview of the upcoming version.
 > ```bash
-> composer config minimum-stability dev
+> $ composer config minimum-stability dev
 > ```
 
-## Installation
+## Installation {#installation}
 
 ```bash
-composer require softspring/user-bundle:^5.2@dev
+$ composer require softspring/user-bundle:^5.2@dev
 ```
 
-## Configuration
+## Configuration {#configuration}
 
-### Enable the bundle
+### Enable the bundle {#enable-the-bundle}
 
 Add the bundle (and the required bundles) to your *config/bundles.php*:
 
@@ -31,7 +31,7 @@ return [
 ];
 ```
 
-### Create user class
+### Create user class {#create-user-class}
 
 Create a new User class in *src/Entity/User.php*:
 
@@ -98,12 +98,14 @@ class User extends UserModel implements NameSurnameInterface, UserPasswordInterf
 }
 ```
 
-### Database migration
+### Database migration {#database-migration}
 
-php bin/console doctrine:migrations:diff --namespace="DoctrineMigrations"
-php bin/console doctrine:migrations:migrate -n
+```bash
+$ php bin/console doctrine:migrations:diff --namespace="DoctrineMigrations"
+$ php bin/console doctrine:migrations:migrate -n
+```
 
-### Configure routes
+### Configure routes {#configure-routes}
 
 Configure routes in *config/routes/sfs_user.yaml*:
 
@@ -142,7 +144,7 @@ _sfs_user:
     prefix: /app
 ```
 
-### Configure security
+### Configure security {#configure-security}
 
 Configure security in *config/packages/security.yaml*:
 
@@ -227,21 +229,21 @@ when@test:
                 memory_cost: 10 # Lowest possible value for argo
 ```
 
-### Create a user
+### Create a user {#create-a-user}
 
 Create a user with the command:
 
 ```bash
-php bin/console sfs:user:create username user@example.com 123456
+$ php bin/console sfs:user:create username user@example.com 123456
 ```
 
 Promote the user to admin:
 
 ```bash
-php bin/console sfs:user:promote user@example.com
+$ php bin/console sfs:user:promote user@example.com
 ```
 
-### Check login
+### Check login {#check-login}
 
 Now you can go to login page at /app/login and login with the user you just created.
 
